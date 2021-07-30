@@ -1,0 +1,44 @@
+mikasa@mikasa:~/Documents/microservices/ReactiveSpring/scripts$ ./bench-product.sh 100
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            1234
+
+Document Path:          /product/nexus
+Document Length:        3 bytes
+
+Concurrency Level:      10
+Time taken for tests:   11.612 seconds
+Complete requests:      100
+Failed requests:        0
+Keep-Alive requests:    0
+Total transferred:      10800 bytes
+HTML transferred:       300 bytes
+Requests per second:    8.61 [#/sec] (mean)
+Time per request:       1161.222 [ms] (mean)
+Time per request:       116.122 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:   106  944 416.2    908    1809
+Waiting:      104  942 416.1    906    1804
+Total:        106  945 416.2    909    1809
+
+Percentage of the requests served within a certain time (ms)
+  50%    909
+  66%   1207
+  75%   1307
+  80%   1308
+  90%   1508
+  95%   1605
+  98%   1711
+  99%   1809
+ 100%   1809 (longest request)
