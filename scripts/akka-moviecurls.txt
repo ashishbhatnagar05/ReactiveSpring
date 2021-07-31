@@ -1,0 +1,3 @@
+curl -k http://localhost:8080/watch?movie=StartWars
+
+curl -k http://localhost:8080/info?movie=StartWars
